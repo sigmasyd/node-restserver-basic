@@ -23,7 +23,7 @@ mongoose.connect(process.env.URLDB, {
         useCreateIndex: true,
         useUnifiedTopology: true,
         autoIndex: true,
-        dropDups: true
+        //dropDups: true
     })
     .then((res) => {
         console.log('Base de datos ONLINE');
